@@ -1,8 +1,9 @@
 export type Todo = {
-  id: number;
+  userId: number;
+  id: number | string;
   title: string;
   completed: boolean;
-};
+} | null;
 
 export type TodoProps = {
   list: Todo[];

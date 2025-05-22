@@ -2,15 +2,19 @@
 @import 'tailwindcss';
 
 .btn-add {
-    @apply bg-lime-500 hover:bg-green-500 text-gray-100 font-semibold py-2 px-4 rounded-lg transition;
+    @apply bg-lime-500 hover:bg-green-500 text-gray-100 font-semibold py-1 px-2 rounded-lg transition;
 }
 
 .btn-delete {
-    @apply bg-rose-400 hover:bg-pink-500 text-white font-semibold p-2 px-4 rounded-lg transition;
+    @apply bg-rose-400 hover:bg-pink-500 text-white font-semibold p-1 px-2 rounded-lg transition;
 }
 
 .btn-done {
-    @apply bg-blue-400 hover:bg-blue-500 text-white font-semibold p-2 px-4 rounded-lg transition;
+    @apply bg-blue-400 hover:bg-blue-500 text-white font-semibold p-1 px-2 rounded-lg transition;
+}
+
+.btn-edit {
+    @apply bg-purple-400 hover:bg-purple-500 text-white font-semibold p-1 px-2 rounded-lg transition;
 }
 
 @theme {
