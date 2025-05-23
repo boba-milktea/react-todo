@@ -59,8 +59,6 @@ const App = () => {
     }
   }, [todos]);
 
-  console.log(todos);
-
   return (
     <TaskContext.Provider
       value={{

@@ -17,7 +17,7 @@ const Tasks = ({ list }: TodoProps) => {
           >
             {task?.title}
           </li>
-          <div>
+          <div className="flex">
             <Button
               onClick={() => handleDelete(String(task?.id))}
               style="btn-delete ml-2 md:ml-4"
