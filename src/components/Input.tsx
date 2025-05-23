@@ -9,7 +9,11 @@ const Input = () => {
   const [input, setInput] = useState('');
 
   useEffect(() => {
-    editingTodo ? setInput(editingTodo.title) : setInput('');
+    if (editingTodo) {
+      setInput(editingTodo.title);
+    } else {
+      setInput('');
+    }
   }, [editingTodo]);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
